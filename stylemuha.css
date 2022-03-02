@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0eef0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0px;
+  color: rgb(3, 13, 73);
+}
+
+h1 {
+  margin: 5px;
+  padding: 10px;
+  background-color: purple;
+  color: wheat;
+}
+
+p {
+  color: blue;
+}
+
+h2 {
+  color: red;
+  text-align: end;
+  margin: 5px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-flow: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+main {
+  margin: 5px;
+}
+
+section {
+  background: aquamarine;
+  margin: 5px;
+  padding: 10px;
+  border: 3px dashed black;
+}
